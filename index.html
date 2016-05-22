@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>城市选择插件demo</title>
+    <link rel="stylesheet" type="text/css" href="css/cityPicker.css">
+</head>
+<body>
+<input type="text" id="cityChoice" style="margin: 134px 0 0 357px;">
+<input type="hidden" id="province" value="">
+<input type="hidden" id="city" value="">
+
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/cityData.js"></script>
+<script type="text/javascript" src="js/cityPicker.js"></script>
+<script>
+    var cityPicker = new IIInsomniaCityPicker({
+        data: cityData,
+        target: '#cityChoice',
+        valType: 'k-v',
+        hideCityInput: '#city',
+        hideProvinceInput: '#province',
+        callback: function(city_id){
+            alert(city_id);
+        }
+    });
+
+    cityPicker.init();
+</script>
+</body>
+</html>

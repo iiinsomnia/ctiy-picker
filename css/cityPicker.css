@@ -1,0 +1,141 @@
+.IIInsomnia-city-picker{
+	position: absolute;
+	border: 2px solid #c9cbce;
+	width: 370px;
+	background: #ffffff;
+	z-index: 999999;
+	font-size: 0;
+}
+.IIInsomnia-city-picker:before, .IIInsomnia-city-picker:after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	border-width: 10px;
+	border-style: solid;
+	position: absolute;
+	left: 20px;
+	z-index: 999999;
+}
+.IIInsomnia-city-picker:before{
+	border-color: transparent transparent #ffffff;
+	top: -17px;
+	z-index: 9999999;
+}
+.IIInsomnia-city-picker:after{
+	border-color: transparent transparent #c9cbce;
+	top: -20px;
+}
+.IIInsomnia-city-picker *{
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+	color: #666666;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+}
+.IIInsomnia-city-picker ul{
+	list-style: none;
+}
+.IIInsomnia-city-picker ul li{
+	display: inline-block;
+	position: relative;
+	margin: 4px;
+	cursor: pointer;
+}
+.IIInsomnia-city-picker p{
+	font-weight: bold;
+	padding: 0 4px;
+	margin-top: 4px;
+	margin-bottom: 10px;
+}
+.IIInsomnia-city-picker .line{
+	width: 340px;
+	margin: 0 auto;
+	margin-top: 4px;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+/*热门城市*/
+.IIInsomnia-city-picker .IIInsomnia-hot-wrap{
+	width: 100%;
+	background: #ffffff;
+	padding: 9px;
+}
+.IIInsomnia-city-picker .IIInsomnia-hot-wrap ul li{
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #666666;
+	background-color: #f5f5f5;
+}
+.IIInsomnia-city-picker .IIInsomnia-hot-wrap ul li:hover{
+	color: #ff00ff;
+}
+
+/*选择省份*/
+.IIInsomnia-city-picker .IIInsomnia-wrap{
+	position: relative;
+	width: 100%;
+	background: #ffffff;
+	padding: 9px;
+}
+.IIInsomnia-city-picker .IIInsomnia-province-name{
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	position: relative;
+	background-color: #f5f5f5;
+}
+.IIInsomnia-city-picker .IIInsomnia-province-name:hover{
+	color: #ff00ff;
+}
+
+.IIInsomnia-city-picker .IIInsomnia-province.active{
+	z-index: 999999999;
+}
+.IIInsomnia-city-picker .IIInsomnia-province-name.active{
+	border: 1px solid #D8D8D8;
+	border-bottom-color: #ffffff;
+	color: #ff00ff;
+	background-color: #ffffff;
+}
+.IIInsomnia-city-picker .IIInsomnia-city-wrap{
+	display: none;
+	border: 1px solid #D8D8D8;
+	background: #ffffff;
+	position: absolute;
+	top: 29px;
+	width: 312px;
+	padding: 10px 10px 5px 10px;
+}
+.IIInsomnia-city-picker .IIInsomnia-city{
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #999999;
+	background-color: #f5f5f5;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.IIInsomnia-city-picker .IIInsomnia-city:hover{
+	color: #ff00ff;
+}
+.IIInsomnia-city-picker .IIInsomnia-clean-btn{
+	width: 108px;
+	height: 30px;
+    background-color: #d15b47!important;
+    color: #ffffff;
+    background-image: none !important;
+    border: 5px solid #d15b47;
+    border-radius: 0;
+}
+.IIInsomnia-city-picker .IIInsomnia-clean-btn:hover{
+	background-color: #b74635 !important;
+    border-color: #d15b47;
+}
