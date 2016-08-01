@@ -109,7 +109,9 @@
 	background: #ffffff;
 	position: absolute;
 	top: 29px;
-	width: 312px;
+	width: 340px;
+	max-height: 185px;
+	overflow-y: scroll;
 	padding: 10px 10px 5px 10px;
 }
 .IIInsomnia-city-picker .IIInsomnia-city{
