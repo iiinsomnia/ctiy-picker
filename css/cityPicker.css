@@ -55,7 +55,6 @@
 	margin-top: 4px;
 	border-bottom: 1px solid #d8d8d8;
 }
-
 /*热门城市*/
 .IIInsomnia-city-picker .IIInsomnia-hot-wrap{
 	width: 100%;
@@ -73,7 +72,6 @@
 .IIInsomnia-city-picker .IIInsomnia-hot-wrap ul li:hover{
 	color: #ff00ff;
 }
-
 /*选择省份*/
 .IIInsomnia-city-picker .IIInsomnia-wrap{
 	position: relative;

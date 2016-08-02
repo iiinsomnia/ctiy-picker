@@ -1,4 +1,5 @@
 /**
+ * @title 简洁实用的城市选择插件
  * @author IIInsomnia
  *
  * var cityPicker = new IIInsomniaCityPicker({
