@@ -13,25 +13,20 @@ var cityData = {
         'id': 22,
         'name': '上海市'
     }, {
+        'pid': 62,
+        'pname': '重庆',
+        'id': 63,
+        'name': '重庆市'
+    }, {
         'pid': 423,
         'pname': '广东',
         'id': 424,
         'name': '广州市'
     }, {
-        'pid': 423,
-        'pname': '广东',
-        'id': 524,
-        'name': '深圳市'
-    }, {
         'pid': 1643,
         'pname': '江苏',
         'id': 1644,
         'name': '南京市'
-    }, {
-        'pid': 42,
-        'pname': '天津',
-        'id': 43,
-        'name': '天津市'
     }],
     province: [{
         id: "1",
